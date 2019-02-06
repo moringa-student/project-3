@@ -1,0 +1,74 @@
+h1{
+  font-size: 30px;
+  font-family: cursive;
+  color: red;
+  line-height: 0px;
+}
+p{
+  font-size: 90px;
+  font-family: monospace;
+  color: orange;
+
+}
+.future{
+  display: inline-block;
+  position: absolute;
+  bottom:20px;
+}
+.container{
+  display : flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d4d7db;
+  position:fixed;
+  width:100%;
+  height:100%;
+  margin:0px;
+  padding : 0px;
+  right:0px;
+  left:0px;
+  top:0px;
+  bottom:0px;
+}
+.image-page{
+  width: 100%;
+  background-color: #d4d7db;
+  height : 100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  right: 0px;
+  left : 0px;
+  top : 0px;
+  bottom: 0px;
+}
+.actuall-image:hover{
+  transform: scale(0.3);
+}
+.actuall-image{
+  width: 400px;
+  height: auto;
+  max-height : 400px;
+  transition : transform 2s;
+}
+.image-box{
+  width: 400px;
+  height: auto;
+  max-height : 400px;
+  position : absolute;
+  top:10px;
+  overflow:hidden;
+}
+.myfavors{
+  display : inline;
+  align-items: center;
+  justify-content: center;
+  background-color: #d4d7db;
+  position:fixed;
+  overflow: auto;
+  right:0px;
+  left:0px;
+  top:0px;
+  bottom:0px;
+}
